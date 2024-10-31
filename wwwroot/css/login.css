@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #eaedf7;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.head-images {
+    background-color: white;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.head-images img {
+    margin: 4px;
+    padding: 4px;
+}
+
+.logo-text {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: inline;
+}
+
+.container {
+    width: 680px;
+}
+
+.create-header {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.signup-subtext {
+    color: rgb(192, 192, 192);
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.signin-form {
+    padding: 14px;
+    height: 450px;
+}
+
+.email-container {
+    position: relative;
+}
+
+.email-logo {
+    position: absolute;
+    top: 60%;
+    right: 10px;
+    user-select: none;
+}
+
+.singin-input {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    opacity: 0.6;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 6px;
+}
+
+.signin-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.signin-label {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.signin-btn {
+    width: 100%;
+    background-color: rgb(98, 89, 202);
+    border: none;
+    color: white;
+    padding: 6px;
+    margin-bottom: 40px;
+}
+
+.signin-form-link {
+    color: rgb(98, 89, 202);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-eye {
+    position: absolute;
+    top: 22%;
+    right: 10px;
+    cursor: pointer;
+}
+
+.password-logo {
+    position: absolute;
+    top: 21%;
+    right: 35px;
+}

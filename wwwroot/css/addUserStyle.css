@@ -1,0 +1,26 @@
+body {
+    background-color: #eaedf7;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-input {
+    width: 100%;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 4px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.signin-btn {
+    width: 100%;
+    background-color: rgb(98, 89, 202);
+    border: none;
+    color: white;
+    padding: 6px;
+    margin-top: 12px;
+    border-radius: 4px;
+}

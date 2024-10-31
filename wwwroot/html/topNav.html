@@ -1,0 +1,80 @@
+<style>
+    .sm-imgs {
+        width: 15px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .nav-input-caret {
+        padding: 8px;
+        font-size: 14px;
+        width: 150px;
+        border: 1px solid rgb(192, 192, 192);
+    }
+
+    .input-with-search {
+        width: 250px;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid rgb(192, 192, 192);
+        margin-right: 0;
+    }
+
+    .search-btn {
+        background-color: #6359cb;
+        width: 60px;
+        padding: 7px;
+        border: none;
+        margin-left: 0px;
+    }
+
+    .form-cont {
+        background-color: white;
+        margin-top: 50px;
+        width: 70%;
+        height: 500px;
+        padding: 12px;
+        border-radius: 4px;
+        box-shadow: -4px 6px 20px -22px rgba(0, 0, 0, 0.75);
+    }
+</style>
+<div class="container-fluid">
+    <div class="row">
+        <!--Top Menu Bar-->
+        <div class="col" style="padding: 0;">
+            <nav class="navbar bg-white">
+                <div class="container-fluid">
+                    <!-- Left section-->
+                    <div class="navbar-left">
+                        <img src="/images/burger-list-menu.svg" class="sm-imgs">
+                        <input style="margin-right: -4px;" class="nav-input-caret" type="text" placeholder="Choose one">
+                        <input class="input-with-search" type="text" placeholder="Search for results...">
+                        <button style="margin-left: -5px;" class="search-btn">
+                            <img src="/images/search.svg"
+                                 alt="search">
+                        </button>
+
+                        <a href="/UserModels/CreateUser" class="nav-item" style="font-size:12px">Add Users Page</a>
+                        <a href="/UserModels/GetAllUsers" class="nav-item" style="font-size:12px">All Users Page</a>
+                        <a href="/UserModels/index" class="nav-item" style="font-size:12px">LogIn Page</a>
+
+                    </div>
+
+                    <!-- Right section-->
+                    <div class="navbar-right">
+                        <img class="sm-imgs" src="/images/moon.svg">
+                        <img class="sm-imgs" src="/images/flag.png">
+                        <img class="sm-imgs" src="/images/fullscreen.svg">
+                        <img class="sm-imgs" src="/images/cart.svg">
+                        <img class="sm-imgs" src="/images/bell.svg">
+                        <img class="sm-imgs" src="/images/box.png">
+                        <img style="width: 30px;" class="sm-imgs" src="/images/another_ham.png">
+                        <img class="sm-imgs" src="/images/gear.png">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!--End nav-->
